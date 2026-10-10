@@ -1,0 +1,11 @@
+{
+  "ucp": "2026-08-25",
+  "name": "test-shopping-agent",
+  "version": "1.0.0",
+  "capabilities": {
+    "catalog": {"search": true, "lookup": true, "detail": true},
+    "cart": {"create": true, "read": true, "update": true, "cancel": true},
+    "checkout": {"create": true, "read": true, "update": true, "complete": true, "cancel": true},
+    "order": {"read": true}
+  }
+}
